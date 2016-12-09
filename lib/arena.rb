@@ -1,2 +1,22 @@
 class Arena
-end
+    attr_accessor :name, :gladiators
+    def initialize(name)
+        @name = name.capitalize!
+        @gladiators = []
+    end
+
+    def add_gladiator(new_glad)
+      if @gladiators.length < 2
+         @gladiators.push(new_glad)
+
+    end
+  end
+    def fight
+      if @gladiators.length < 2
+        @gladiators.first.weapon == 
+      end
+      # if @gladiators = 2
+
+
+    end
+  end
